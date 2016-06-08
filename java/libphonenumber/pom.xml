@@ -15,19 +15,12 @@
 
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>test</testSourceDirectory>
     <resources>
       <resource>
-        <directory>src/com/google/i18n/phonenumbers/data</directory>
+        <directory>lite/src/com/google/i18n/phonenumbers/data</directory>
         <targetPath>com/google/i18n/phonenumbers/data</targetPath>
       </resource>
     </resources>
-    <testResources>
-      <testResource>
-        <directory>test/com/google/i18n/phonenumbers/data</directory>
-        <targetPath>com/google/i18n/phonenumbers/data</targetPath>
-      </testResource>
-    </testResources>
     <plugins>
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
